@@ -1,0 +1,62 @@
+
+1. Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+
+A. Data Type:
+	• Data Type specifies the kind of data a variable can hold. It creates a memory block to hold the particular value. These memory blocks further can be called using the declared 		variables.
+
+	For Ex: 
+		• An integer data type (int) can store whole numbers.
+		• A string data type (String) can store sequences of characters.
+
+	Categories of Data Types:
+		1. Primitive Data Type
+		2. Non-Primitive Data Type
+
+    Primitive data type:
+ 	• Primitive data types are the simplest types of data that represent a single 	value.
+	• They are the default data type that are offered by the language
+
+ 	Types of Primitive Data Type:
+
+		• Number: Represents numeric values.
+  		Example:
+			let age = 25;
+			let price = 99.99;
+
+		• String: Represents a sequence of characters.
+  		Example:
+			let name = "John";
+			let greeting = 'Hello, World!';
+
+		• Boolean: Represents logical values, true or false.
+  		Example:
+			let isActive = true;
+			let isLoggedIn = false;
+
+		• Undefined: A variable declared but not assigned a value.
+  		Example:
+			let user;
+			console.log(user);
+
+		• Null: Represents an explicitly empty or non-existent value.
+  		Example:
+			let noValue = null;
+
+  Non-Primitive Data Type:
+	• Non-primitive (or reference) data types can hold collections of values or more complex entities.
+	•They are kind of User-Defined Data Type
+
+	Types of Non-Primitive Data Type:
+
+	• Object: Used to store collections of key-value pairs or more complex structures.
+  	Example:
+		let person = {
+  			name: "Alice",
+  			age: 30
+		};
+		console.log(person.name);
+
+	• Array: Special type of object used to store ordered lists of values.
+  	Example:
+		let numbers = [1, 2, 3, 4, 5];
+		console.log(numbers[2]);
