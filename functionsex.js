@@ -128,18 +128,37 @@
 //!Map will copy the values of the original array and returns a new array.
 
 //Execution process
-var a = 10;
-let b = 30;
-function x(){
-    var user = "a";
-    let company = "amazon";
-    const sal = 1234567890;
-    console.log(user);
-    console.log(company);
-    console.log(sal);
-    console.log(a, b);
-}
-x();
+// var a = 10;
+// let b = 30;
+// function x(){
+//     var user = "a";
+//     let company = "amazon";
+//     const sal = 1234567890;
+//     console.log(user);
+//     console.log(company);
+//     console.log(sal);
+//     console.log(a, b);
+// }
+// x();
 
 //^closure
 //*is a memory created when functions bundled together/ functions are nested together by giving accessibility to the innermost function to access the variables of outermost function.
+function x(){
+    var a = 10;
+    let b = 20;
+    console.log(a, b);
+    function y(){
+        let p = "Js";
+        let q = "ReactJs";
+        console.log(p, q);
+        function z(){
+            const username = "a";
+            console.log(username);
+            console.log(a);
+            console.log(p);
+        }
+        z();
+    }
+    y();
+}
+x();
