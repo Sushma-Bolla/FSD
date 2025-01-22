@@ -24,23 +24,24 @@
 
 //~ promise
 //* handling promise we use then, catch, and finally.
-let p1 = new Promise((resolve, reject)=>{});
-// console.log(p1)
+// let p1 = new Promise((resolve, reject)=>{});
+// // console.log(p1)
 
-let p2 = new Promise((resolve, reject)=>{
-    resolve("Success");
-    //reject("reject");
-});
-console.log(p2);
-p2.then((response)=>{
-    console.log(response);
-})
-p2.catch((error)=>{
-    console.log(error);
-}).finally(()=>{
-    console.log("Finally printing for both");
-})
+// let p2 = new Promise((resolve, reject)=>{
+//     resolve("Success");
+//     //reject("reject");
+// });
+// console.log(p2);
+// p2.then((response)=>{
+//     console.log(response);
+// })
+// p2.catch((error)=>{
+//     console.log(error);
+// }).finally(()=>{
+//     console.log("Finally printing for both");
+// })
 
-let p3 = new Promise((resolve, reject)=>{
-    reject("Failures");
-});
+// let p3 = new Promise((resolve, reject)=>{
+//     reject("Failures");
+// });
+
