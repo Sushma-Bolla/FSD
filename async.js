@@ -45,3 +45,26 @@
 //     reject("Failures");
 // });
 
+//~async and await
+// function demo(){
+//     console.log("Hello");
+//     console.log("Bye");
+//     return //stop the execution which are next to return statement
+//     console.log(10);
+//     console.log(20);
+//     console.log(30);
+// }
+// demo();
+
+let p = new  Promise((resolve, reject)=>{
+    setTimeout(()=>{
+        resolve("Promise successfully completing");
+    }, 3000)
+})
+async function demo(){ //here function is converted to async by using async keyword
+    console.log("Start");
+    let x = await p; //await - execution will stop for some time rather than totally stopping the execution
+    console.log(x);
+    console.log("End");
+}
+demo();
