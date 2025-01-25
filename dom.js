@@ -11,7 +11,7 @@
 // let ele = document.getElementsByClassName("test");
 // console.log(ele);
 // console.log(Array.isArray(ele)); //returning false so it is not a pure array now we have to convert it into pure array.
-// // ele[0].style.backgroundColor="yellow";
+// ele[0].style.backgroundColor="yellow";
 // //*spread operator - used to takeout each and evaery value from original array and store it in new array(pure array).
 // //* syntax :- [...variable]
 // let x = [...ele]
@@ -41,9 +41,8 @@
 // console.log(ele);
 
 //& document.querySelectorAll - prints all the div classes in the console.
-let ele = document.querySelectorAll(".test");
-// console.log(ele);
-[...ele].map(element=>{
-    console.log(element.innerText);
-})
-
+// let ele = document.querySelectorAll(".test");
+// // console.log(ele);
+// [...ele].map(element=>{
+//     console.log(element.innerText);
+// })

@@ -16,8 +16,9 @@
 //     document.body.style.backgroundColor="teal";
 // });
 
-let btn = document.getElementById("btn");
-btn.addEventListener("mouseleave",()=>{
-    alert("mouse moved");
-    document.body.style.backgroundColor="tomato";
-})
+// let btn = document.getElementById("btn");
+// btn.addEventListener("mouseleave",()=>{
+//     alert("mouse moved");
+//     document.body.style.backgroundColor="tomato";
+// })
+
