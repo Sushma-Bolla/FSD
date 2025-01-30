@@ -289,3 +289,5 @@ creation of elements dynamically from javascript:-
 
 - the element which is craeted in js should be added to html document.
 - to add this element we have a method called as "appendChild()".
+
+The default method for action is get method.

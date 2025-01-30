@@ -4,29 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <!-- QUESTION -->
+    <style>
+        table, th, td{
+            border: 2px solid black;
+            padding: 8px;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-  
-    <!-- !assigment -->
-     <!-- <div class="mainBlock">
-        <div class="topBlock">
-            <img src="" alt="">
-        </div>
-        <div class="bottomBlock">
-            <h1>Heading</h1>
-            <button>View More</button>
-        </div>
-     </div> -->
 
-
-     <form>
+    <!-- //~form1 -->
+     <!-- <form>
         <input type="text" placeholder="name" id="uName"><br>
         <input type="email" placeholder="email" id="uEmail"><br>
         <input type="password" placeholder="password" id="uPsw"><br>
         <input type="submit" value="Signup">
-     </form>
+     </form> -->
 
+     <!-- //~form2 -->
+     <!-- <form>
+        <div class="formgroup">
+            <label for="uName">Username:</label>
+            <input type="text" id="uName" placeholder="enter a name">
+        </div>
+        <div class="formgroup">
+            <label for="uPass">Password:</label>
+            <input type="password" id="uPass" placeholder="enter a password">
+            <input type="checkbox" id="check">
+            <span id="show">show password</span>
+        </div>
+        <div class="formgroup">
+            <label for="">Gender:</label>
+            <input type="radio" name="gender" value="male"><span>Male</span>
+            <input type="radio" name="gender" value="female"><span>Female</span>
+            <input type="radio" name="gender" value="others"><span>Others</span>
+        </div>
+        <input type="submit" value="submit">
+     </form> -->
+
+     <table>
+        <thead>
+            <tr>
+                <th>empid</th>
+                <th>empname</th>
+                <th>empcompany</th>
+                <th>empsalary</th>
+                <th>empcity</th>
+                <th>emparea</th>
+            </tr>
+        </thead>
+        <tbody id="store">
+
+        </tbody>
+    </table>
 
     <script src="./dom1.js"></script>
+    <!-- <script src="./Ass(25-1-25).js"></script> -->
 </body>
 </html>
